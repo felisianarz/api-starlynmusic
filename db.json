@@ -1,0 +1,92 @@
+{
+  "siswa": [
+    {
+      "id_sisa": 1,
+      "no_induk_siswa": "3355",
+      "tgl_lahir_siswa": "31-03-2002",
+      "nama_siswa": "Adel",
+      "alamat_siswa": "Banjarsari",
+      "jenis_kelamin_siswa": "Perempuan"
+    },
+    {
+      "id_siswa": 2,
+      "no_induk_siswa": "3344",
+      "tgl_lahir_siswa": "04-03-2002",
+      "nama_siswa": "Echan",
+      "alamat_siswa": "Tembalang",
+      "jenis_kelamin_siswa": "Laki-laki"
+    }
+  ],
+  "musik": [
+    {
+      "id": 1,
+      "nama": "Gitar"
+    },
+    {
+      "id": 2,
+      "nama": "Piano"
+    },
+    {
+      "id": 3,
+      "nama": "Suling"
+    }
+  ],
+  "jadwalGuru": [
+    {
+      "id": 1,
+      "id_guru": 1,
+      "alat_musik": "Gitar",
+      "nama_guru": "Jaemin",
+      "id_hari": 1,
+      "hari": "Senin dan Rabu",
+      "waktu": "19.30 - 20.30 WIB",
+      "img": "https://github.com/felisianarz/api-starlynmusic/blob/main/images/jaemin.png"
+    },
+    {
+      "id": 2,
+      "id_guru": 2,
+      "alat_musik": "Piano",
+      "nama_guru": "Jennie",
+      "id_hari": 2,
+      "hari": "Selasa dan Jumat",
+      "waktu": "19.30 - 20.30 WIB",
+      "img": "https://github.com/felisianarz/api-starlynmusic/blob/main/images/jennie.png"
+    },
+    {
+      "id": 3,
+      "id_guru": 3,
+      "alat_musik": "Rebana",
+      "nama_guru": "Jisoo",
+      "id_hari": 2,
+      "hari": "Kamis dan Jumat",
+      "waktu": "19.30 - 20.30 WIB",
+      "img": "https://github.com/felisianarz/api-starlynmusic/blob/main/images/jisoo.png"
+    }
+  ],
+  "pendaftaran": [
+    {
+      "id": "123",
+      "no_induk_siswa": "3355",
+      "nama_siswa": "Kiky",
+      "periode": "Desember",
+      "alat_musik": "Gitar",
+      "guru": "Jisoo"
+    },
+    {
+      "id": "124",
+      "no_induk_siswa": "3322",
+      "nama_siswa": "Ryujin",
+      "alat_musik": "Piano",
+      "periode": "November",
+      "guru": "Jaemin"
+    },
+    {
+      "id": "125",
+      "no_induk_siswa": "3344",
+      "nama_siswa": "Lala",
+      "alat_musik": "Piano",
+      "periode": "Juli",
+      "guru": "Jennie"
+    }
+  ]
+}
